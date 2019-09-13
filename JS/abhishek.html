@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="UTF-8">
+<title>Learn JS </title>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+<div class='container'>
+<div id='winner'></div>
+<h1>The SCORE Game</h1>
+<div class="players active" id="player-0">
+<h2>Player 1</h2><br>
+<label for="score">SCORE</label>
+<input type="text" name="score" id="score-0" value='0' />
+</div>
+<div class="players" id="player-1">
+<h2>Player 2</h2><br>
+<label for="score">SCORE</label>
+<input type="text" name="score" id="score-1" value='0'/>
+</div>
+<div class="current-score">
+<h2>
+<label for="current-score">CURRENT SCORE</label>
+<input type="text" name="current-score" id="current-sore" value='0'></input>
+</h2>
+<h2>
+<label for="Dice-score">Dice SCORE</label>
+<input type="text" name="current-score" id="Dice-score" value='0'></input>
+</h2>
+</div>
+<div align='center' class='button'>
+<button type="button" name="generate-score" onclick='Generate()'> Generate</button>
+<button  name="submit-score" onclick='saveScore()'> HOLD</button>
+
+
+</div>
+</div>
+<script type="text/javascript" src="system.js"></script>
+</body>
+</html>

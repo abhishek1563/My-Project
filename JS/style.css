@@ -1,0 +1,45 @@
+body{
+background-color:#1f7596;
+}
+.container{
+	background-color:white;
+	width:80%;
+	height:75%;
+	padding-top:50px;
+	margin-left:10%;
+	margin-top:9%;
+	
+}
+h1,h2,h3,h4,h5{
+text-align:center;
+margin:0px;
+}
+.players{
+	width:45%;
+	float:left;
+	background-color:white;
+	padding-top:30px;
+	margin-left:3%;
+}
+#score{
+
+padding-left:10px;
+}
+label{
+padding-left:120px;
+}
+.current-score{
+	text-align:center;
+	padding-top:12%;;
+}
+.button{
+margin-top:30px;
+padding-bottom:25px;;
+}
+.active{
+	background-color:#97dc8a;
+}
+#winner{
+	color: Green;
+	text-align:center;
+}
